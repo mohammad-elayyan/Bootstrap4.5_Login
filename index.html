@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="shortcut icon" href="images/apple-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="header">
+                <img class="logo" src="images/apple-logo.png" alt="">
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-12 text-center"><h2>Login to Access your Account</h2></div>
+            <form>
+                <div class="form-group">
+                  <label for="email">Enter your email</label>
+                  <input type="text" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="password">Enter your password</label>
+                  <input type="text" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1"> I read and agree on <a href="" data-toggle="modal" data-target="#modal">the Terms of Use and Privacy Policy</a>.</label>
+                </div>
+                <div class="form-btns">
+                    <button type="submit" class="btn btn-secondary px-5">Login</button>
+                </div>
+              </form>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Agreement</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span style="color: #fff;" aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis non veniam atque minima explicabo officiis voluptatum aliquid est in magnam. Quisquam, laborum magni. Tempora id dicta voluptatem inventore voluptas saepe.</p>
+              <ol>
+                  <li>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, praesentium.</p>
+                  </li>
+                  <li>
+                      <p>Sint assumenda error, illo culpa quasi ratione qui voluptates officia!</p>
+                  </li>
+                  <li>
+                      <p>Architecto consequuntur alias dignissimos consectetur possimus, neque qui reprehenderit quidem.</p>
+                  </li>
+                  <li>
+                      <p>Numquam odio illo harum ipsa vel officia, voluptas ipsum culpa!</p>
+                  </li>
+                  <li>
+                      <p>Fugiat cupiditate similique velit iusto vero totam blanditiis, qui quis.</p>
+                  </li>
+              </ol>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
